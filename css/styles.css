@@ -7,17 +7,20 @@
 
 .list {
     list-style: none;
+    display: flex;
+    align-items: center;
+
 }
 .link {
     text-decoration: none;
 }
 .container {
-    width: 1440px;
+    width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     outline: solid red;
-    padding-bottom: 24px;
-    padding-top: 24px;
+    /* padding-bottom: 24px;
+    padding-top: 24px; */
 }
 .about {
     padding-top: 120px;
@@ -54,7 +57,9 @@ img {
     /* NAVY BLUE */
     color:var(--primary-text-color);
     text-decoration: none;
-    
+    margin-right: 76px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .accent {
     /* IRIS */
@@ -95,16 +100,23 @@ img {
     /* SLATE */
     color:var(--accent-color);
 }
+.container-header{
+    display: flex;
+    align-items: center;
+}
 .footer{
     background: #2E2F42;
     padding-top: 100px;
     padding-bottom: 100px;
+    padding-left: 0;
+    padding-right: 0;
 }
 .text-footer {
     font-size: 16px;
     line-height: 1.5;
     /* CORNFLOWER */
     color: #E7E9FC;
+    margin-top: 16px;
     }
 /* ==============/Components================ */
 
@@ -115,10 +127,27 @@ img {
 .list-our-team{
     background: #F4F4FD;
 }
+.menu{
+    /* margin-right: 332px; */
+    gap: 40px;
+}
+.menu-contacts{
+    display: flex;
+    gap: 40px;
+}
+.page-nav{
+    display: flex;
+    margin-right: auto;
+    /* gap: 40px; */
+}
 .hero{
     background:var(--primary-text-color);
     padding-top: 188px;
     padding-bottom: 188px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    
 }
 .modal-btn {
     font-family: 'Roboto', sans-serif;
@@ -131,6 +160,8 @@ img {
     color: #FFFFFF;
     background-color: #4D5AE5;
     cursor: pointer;
+    border-radius: 4px;
+
 }
 .portfolio-btn{
     color: var(--background-color);
@@ -155,6 +186,7 @@ img {
     /* text-align: center; */
     letter-spacing: var(--letter-spacing);
     color: #FFFFFF;
+    
 }
 .title{
     font-weight: 700;
@@ -174,7 +206,13 @@ img {
     /* NAVY BLUE */
     color:var(--primary-text-color);
     margin-bottom: 8px;
+}
+.list-suptitle{
+    gap: 24px;
+}
+.suptitle-team, .suptitle-services {
     margin-top: 32px;
+    margin-bottom: 32px;
 }
 .text {
     font-size: 16px;
