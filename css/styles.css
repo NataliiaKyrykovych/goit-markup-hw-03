@@ -9,7 +9,8 @@
     list-style: none;
     display: flex;
     align-items: center;
-
+    gap: 24px;
+    
 }
 .link {
     text-decoration: none;
@@ -108,8 +109,8 @@ img {
     background: #2E2F42;
     padding-top: 100px;
     padding-bottom: 100px;
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 .text-footer {
     font-size: 16px;
@@ -126,7 +127,14 @@ img {
 /* ==================Hero=================== */
 .list-our-team{
     background: #F4F4FD;
+    gap: 24px;
 }
+.list-services{
+    flex-wrap: wrap;
+}
+.list-btn{
+    
+    }
 .menu{
     /* margin-right: 332px; */
     gap: 40px;
@@ -161,6 +169,8 @@ img {
     background-color: #4D5AE5;
     cursor: pointer;
     border-radius: 4px;
+    margin: 0 auto;
+    display: block;
 
 }
 .portfolio-btn{
@@ -169,7 +179,10 @@ img {
     /* CORNFLOWER */
     border: 1px solid #E7E9FC;
     border-radius: 4px;
-    }
+    margin-bottom: 72px;
+    margin-top: 96px;
+
+}
 .modal-btn:hover,
 .modal-btn:focus {
     color: #FFFFFF;
@@ -177,7 +190,9 @@ img {
 }
 .modal-btn:active{
     color: #FFFFFF;
-    background-color: #404BBF;;
+    background-color: #404BBF;
+    margin: 0 auto;
+    text-align: center;
 }
 .hero-title{
     font-weight: 700;
@@ -186,7 +201,10 @@ img {
     /* text-align: center; */
     letter-spacing: var(--letter-spacing);
     color: #FFFFFF;
-    
+    max-width: 507px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+    text-align: center;
 }
 .title{
     font-weight: 700;
@@ -197,6 +215,8 @@ img {
     text-transform: capitalize;
     /* NAVY BLUE */
     color: var(--primary-text-color);
+    text-align: center;
+    margin-bottom: 72px;
 }
 .suptitle {
     font-weight: 500;
