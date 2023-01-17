@@ -26,9 +26,7 @@
 .about {
     padding-top: 120px;
     padding-bottom: 120px;
-    padding-left: 141px;
-    padding-right: 141px;
-}
+    }
 body {
 font-family: 'Roboto', 'Verdana', 'Tahoma', sans-serif;
 }
@@ -128,13 +126,15 @@ img {
 .list-our-team{
     background: #F4F4FD;
     gap: 24px;
-}
+    }
 .list-services{
     flex-wrap: wrap;
 }
 .list-btn{
-    
+    display: flex;
+    margin: 0 auto;
     }
+    
 .menu{
     /* margin-right: 332px; */
     gap: 40px;
@@ -147,6 +147,9 @@ img {
     display: flex;
     margin-right: auto;
     /* gap: 40px; */
+}
+.about-team{
+    background: #F4F4FD;
 }
 .hero{
     background:var(--primary-text-color);
@@ -229,6 +232,13 @@ img {
 }
 .list-suptitle{
     gap: 24px;
+    width: calc((100%-24px)/4);
+    padding-left: 156px;
+    padding-right: 156px;
+}
+.list-images{
+    width: calc((100%-24px)/3);
+    
 }
 .suptitle-team, .suptitle-services {
     margin-top: 32px;
