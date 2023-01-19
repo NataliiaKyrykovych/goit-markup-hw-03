@@ -175,7 +175,9 @@ img {
 .list-our-team{
     background: #F4F4FD;
     gap: 24px;
-    display: flex;}
+    display: flex;
+    padding-bottom: 120px;
+}
 .about-team{
     background: #F4F4FD;
     margin: 0 auto;
@@ -216,6 +218,7 @@ img {
     color: var(--primary-text-color);
     text-align: center;
     margin-bottom: 72px;
+    padding-top: 120px;
 }
 .suptitle {
     font-weight: 500;
@@ -230,7 +233,7 @@ img {
     display: flex;
     gap: 24px;
     padding-top: 120px;
-    padding-bottom: 120px;
+    /* padding-bottom: 120px; */
 
 }
 .text-suptitle{
@@ -293,7 +296,7 @@ width: calc((100% - 24px)/4);
 }
 .gallery {
     /* padding-bottom: 120px; */
-    
+    /* padding-top: 120px; */
 }
 .suptitle-services{
     border: 1px solid #E7E9FC;
