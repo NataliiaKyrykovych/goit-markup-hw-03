@@ -24,10 +24,10 @@
     margin-left: auto;
     margin-right: auto;
 }
-.about {
+/* .about-suptitle {
     padding-top: 120px;
     padding-bottom: 120px;
-    }
+    } */
 body {
 font-family: 'Roboto', 'Verdana', 'Tahoma', sans-serif;
 }
@@ -61,6 +61,9 @@ img {
     margin-right: 76px;
     padding-top: 24px;
     padding-bottom: 24px;
+}
+.logo-footer{
+    color:  #F4F4FD;
 }
 .accent {
     /* IRIS */
@@ -172,11 +175,11 @@ img {
 .list-our-team{
     background: #F4F4FD;
     gap: 24px;
-    display: flex;
-    width: calc((100% - 72px) / 4 );
-    }
+    display: flex;}
 .about-team{
     background: #F4F4FD;
+    margin: 0 auto;
+    width: 1440px;
 }
 
 .modal-btn:hover,
@@ -224,21 +227,30 @@ img {
     margin-bottom: 8px;
 }
 .list-suptitle{
+    display: flex;
     gap: 24px;
-    width: calc((100%-24px)/4);
-    padding-left: 156px;
-    padding-right: 156px;
-    flex-basis: calc((100%-72px)/4);
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+}
+.text-suptitle{
+width: calc((100% - 24px)/4);
 }
 .list-images{
     display: flex;
     gap: 24px;
-    width: calc((100%-48px)/3);
-    
+    padding-bottom: 120px;
+}
+.list-img{
+    width: calc((100% - 48px)/3);
 }
 .suptitle-team {
-    margin-top: 32px;
-    margin-bottom: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    text-align: center;
+}
+.list-team{
+    width: calc((100% - 72px) / 4);
 }
 .text {
     font-size: 16px;
@@ -246,6 +258,7 @@ img {
     letter-spacing: var(--letter-spacing);
     /* SLATE */
     color:var(--accent-color);
+    
 }
 .list-btn {
     justify-content: center;
@@ -258,11 +271,13 @@ img {
     display: flex;
     column-gap: 24px;
     row-gap: 48px;
+    margin-bottom: 72px;
 
 }
 
 .services-item {
-    width: calc((100%-48px)/3);
+    width: calc( ( 100% - 48px ) / 3 );
+    
 }
 
 .portfolio-btn {
@@ -273,6 +288,7 @@ img {
     border-radius: 4px;
     margin-bottom: 72px;
     margin-top: 96px;
+    padding: 12px 24px;
 
 }
 .gallery {
@@ -281,8 +297,7 @@ img {
 }
 .suptitle-services{
     border: 1px solid #E7E9FC;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding: 32px 16px;
 }
 /* ================/Hero==================== */
 
