@@ -251,6 +251,7 @@ width: calc((100% - 24px)/4);
     padding-top: 32px;
     padding-bottom: 32px;
     text-align: center;
+    background-color: #FFFFFF;;
 }
 .list-team{
     width: calc((100% - 72px) / 4);
