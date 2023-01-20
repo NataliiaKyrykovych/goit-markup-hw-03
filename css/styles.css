@@ -170,18 +170,27 @@ img {
     border-radius: 4px;
     margin: 0 auto;
     display: block;
-
+    padding: 16px 32px;
+}
+.about-suptittle{
+    padding-top: 120px;
+}
+.about-images{
+padding-top: 120px;
+padding-bottom: 120px;
 }
 .list-our-team{
     background: #F4F4FD;
     gap: 24px;
     display: flex;
-    padding-bottom: 120px;
+    
 }
 .about-team{
     background: #F4F4FD;
     margin: 0 auto;
     width: 1440px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .modal-btn:hover,
@@ -218,7 +227,7 @@ img {
     color: var(--primary-text-color);
     text-align: center;
     margin-bottom: 72px;
-    padding-top: 120px;
+    
 }
 .suptitle {
     font-weight: 500;
@@ -232,17 +241,14 @@ img {
 .list-suptitle{
     display: flex;
     gap: 24px;
-    padding-top: 120px;
-    /* padding-bottom: 120px; */
-
-}
+    }
 .text-suptitle{
 width: calc((100% - 24px)/4);
 }
 .list-images{
     display: flex;
     gap: 24px;
-    padding-bottom: 120px;
+    
 }
 .list-img{
     width: calc((100% - 48px)/3);
@@ -268,15 +274,17 @@ width: calc((100% - 24px)/4);
     justify-content: center;
     display: flex;
     margin: 0 auto;
+    margin-bottom: 72px;
 }
-
+.gallery{
+    padding-bottom: 120px;
+    padding-top: 96px;
+}
 .list-services {
     flex-wrap: wrap;
     display: flex;
     column-gap: 24px;
     row-gap: 48px;
-    margin-bottom: 72px;
-
 }
 
 .services-item {
@@ -290,10 +298,7 @@ width: calc((100% - 24px)/4);
     /* CORNFLOWER */
     border: 1px solid #E7E9FC;
     border-radius: 4px;
-    margin-bottom: 72px;
-    margin-top: 96px;
     padding: 12px 24px;
-
 }
 
 .suptitle-services{
