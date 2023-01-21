@@ -24,10 +24,7 @@
     margin-left: auto;
     margin-right: auto;
 }
-/* .about-suptitle {
-    padding-top: 120px;
-    padding-bottom: 120px;
-    } */
+
 body {
 font-family: 'Roboto', 'Verdana', 'Tahoma', sans-serif;
 }
@@ -51,8 +48,6 @@ img {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
-    /* display: flex;
-    align-items: center; */
     letter-spacing: 0.03em;
     text-transform: uppercase;
     /* NAVY BLUE */
@@ -116,7 +111,6 @@ img {
     padding-bottom: 100px;
     padding-left: 0px;
     padding-right: 0px;
-    width: 1440px;
     margin: 0 auto;
     }
 .text-footer {
@@ -154,9 +148,7 @@ img {
     padding-bottom: 188px;
     display: block;
     margin: 0 auto;
-    width: 1440px;
-    
-}
+    }
 
 .modal-btn {
     font-family: 'Roboto', sans-serif;
@@ -188,7 +180,6 @@ padding-bottom: 120px;
 .about-team{
     background: #F4F4FD;
     margin: 0 auto;
-    width: 1440px;
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -208,7 +199,6 @@ padding-bottom: 120px;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    /* text-align: center; */
     letter-spacing: var(--letter-spacing);
     color: #FFFFFF;
     max-width: 507px;
@@ -220,7 +210,6 @@ padding-bottom: 120px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    /* text-align: center; */
     letter-spacing: var(--letter-spacing);
     text-transform: capitalize;
     /* NAVY BLUE */
